@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.FortyFourActivity">
+
+    <LinearLayout
+        android:id="@+id/comenter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlHeader"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/back_44"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/blackback" />
+
+            <TextView
+                android:id="@+id/realisation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+android:layout_centerVertical="true"
+                android:fontFamily="@font/josefinsans_semibold"
+                android:layout_centerHorizontal="true"
+                android:text="@string/ajout_d_une_r_alisation"
+                android:textColor="@color/headerlightcolor"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+         android:layout_centerVertical="true"
+             android:layout_marginRight="10dp"
+                android:src="@drawable/cancel" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/Titre"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/sape1">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:fontFamily="@font/josefinsans_semibold"
+                android:hint="@string/titre"
+                android:textColorHint="@color/inputbluishblack"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/actuel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+   android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/sape1">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:padding="2dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_add_a_photo_24px" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="13dp"
+                android:layout_toRightOf="@+id/img"
+                android:fontFamily="@font/josefinsans_semibold"
+                android:gravity="center_vertical"
+                android:textColor="@color/inputbluishblack"
+                android:text="@string/ajouter_une_image"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/sape1">
+
+
+            <EditText
+                android:id="@+id/Decript"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:fontFamily="@font/josefinsans_semibold"
+                android:hint="@string/description"
+                android:textSize="18dp"
+                android:textColorHint="@color/inputbluishblack"
+                android:background="@null"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="13dp"
+            android:text="@string/poster"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:fontFamily="@font/josefinsans_bold"
+            android:textSize="18dp"
+            android:background="@drawable/connecxiorlbg"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

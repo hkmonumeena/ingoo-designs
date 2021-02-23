@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#25262E"
+    tools:context=".activities.FortyOneActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/rlHeader"
+            android:background="#25262E"
+            android:layout_marginTop="20dp"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:id="@+id/detail41_back"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_right_back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/detail41_back"
+                android:text="@string/d_tail_d_une_r_alisation"
+                android:textColor="@color/headerlightcolor"
+                android:fontFamily="@font/josefinsans_bold"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_alignParentRight="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/close" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/che"
+                android:scaleType="fitXY"/>
+
+
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/chevalet"
+                android:fontFamily="@font/josefinsans_semibold"
+                android:textColor="#DD91B4"
+                android:textSize="20dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/d_coration_mariage_blanc_lanternes_mariage_centre_de_table_quoi_de_plus_chic_que_des_cadres_et_chevalets_sur_les_tables_du_mariage_avec_des_fleurs_c_t_le_rendu_sera_romantique_et_champ_tre"
+                android:textColor="#9FA0A3"
+                android:fontFamily="@font/josefinsans_regular"
+                android:padding="5dp"
+                android:layout_margin="10dp"
+                android:textSize="18dp"/>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView
+        android:layout_alignParentBottom="true"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/blue_dots"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#F8F8F8</color>
+    <color name="colorAccent">#FFCC00</color>
+    <color name="black">#000000</color>
+    <color name="white">#FCFBFB</color>
+    <color name="blue">#40C4FF</color>
+    <color name="dimwhite">#F4F1F1</color>
+    <color name="dimwhite2">#F4F4F4</color>
+    <color name="dimwhite3">#FBFBFB</color>
+    <color name="greyishteal">#6D9A9F</color>
+    <color name="grey">#8384A0</color>
+    <color name="headerlightcolor">#90CED4</color>
+    <color name="eventregularcolor">#303030</color>
+    <color name="rock_blue">#8B99BB</color>
+    <color name="pink_color">#E0ABC5</color>
+    <color name="inputbluishblack">#3E3F68</color>
+    <color name="paintbluew">#7882FF</color>
+
+    <color name="_bg___04_inscription__color">#ffffff</color>
+
+    <color name="rectangle_212_color">#90ced4</color>
+
+    <color name="s_inscrire_color">#ffffff</color>
+
+    <color name="rectangle_210_color">#fbfbfb</color>
+
+    <color name="mot_de_passe_color">#fbfbfb</color>
+
+    <color name="_connexion_color">#78c7ce</color>
+
+    <color name="ellipse_57_color">#78c7ce</color>
+
+    <color name="rectangle_168_color">#5658a0</color>
+
+    <color name="rectangle_169_color">#ed0000</color>
+</resources>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F3F3"
+    tools:context=".activities.FortyEightActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/rlHeader"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:id="@+id/back_48"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/blackback" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_profile"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/back_48"
+                android:src="@drawable/female3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/josefinsans_semibold"
+                android:text="@string/corine_m_alba"
+                android:textColor="@color/headerlightcolor"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="4dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/search"
+                app:tint="@color/inputbluishblack" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#F3F3F3"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/corine_box"
+                android:fontFamily="@font/josefinsans_regular"
+                android:gravity="center"
+                android:text="@string/lorem_ipsum_is_simply_dummy_text_of_the_lorem_ipsum_is"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/corine_box2"
+                android:fontFamily="@font/josefinsans_regular"
+                android:gravity="center"
+                android:text="@string/lorem_ipsum_is_simply_dummy_text_of_the_lorem_ipsum_is"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/josefinsans_regular"
+                android:text="@string/dimanche_19_12"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/josefinsans_bold"
+                android:text="@string/aujourd_hui"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/white_chat"
+                android:fontFamily="@font/josefinsans_regular"
+                android:padding="10dp"
+                android:text="Lorem ipsum damet, cpnsect tur
+Swing elit doisumo mod tempor ut labore. Lorem ipsum Lorem ipsum damet, cpnsect tur Swing  elit doisumo mod tempor ut labor Lorem ipsumLorem ipsum damet, cpnsect tur Swing elit doisumo mod tempor ut labore. Lorem ipsum."
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/_09_12"
+                android:fontFamily="@font/josefinsans_regular"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/chatBox"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/camara_ic"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/sape1">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:background="@null"
+                android:fontFamily="@font/josefinsans_regular"
+                android:hint="@string/votre_message"
+
+                />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="5dp"
+            android:id="@+id/camara_ic"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/mic"
+            android:src="@drawable/camara_ic"
+            android:tint="#727C8E"
+            android:layout_centerVertical="true"
+            />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/mic"
+            android:tint="#727C8E"
+            android:padding="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ic_mic_none_24px"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

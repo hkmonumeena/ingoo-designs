@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activities.FifthActivity">
+
+    <RelativeLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/blackback" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@+id/imageView4"
+            android:fontFamily="@font/josefinsans_bold"
+            android:text="@string/conditions_g_n_rales_d_utilisateurs"
+            android:textAlignment="center"
+            android:textColor="@color/headerlightcolor"
+            android:textSize="22dp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/constraintLayout2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
+
+                <TextView
+                    android:id="@+id/textViewCond"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginRight="30dp"
+                    android:fontFamily="@font/josefinsans_regular"
+                    android:gravity="center_horizontal"
+                    android:text="@string/lorem_ipsum_dolor_sit_amet_consec_tetur_adipiscing_elit_sed_do_eiusmo_temp_cididunt_ut_labore_et_dolore_magna_aliqua_ut_enim_ad_mini_veniam_quis_lorem_ipsum_dolor_sit_amet_consec_tetur_adipiscing_elit_sed_do_eiusmo_temp_cididunt_ut_labore_et_dolore_magna_aliqua_ut_enim_ad_mini_veniam_quis_lorem_ipsum_dolor_sit_amet_consec_tetur_adipiscing_elit_sed_do_eiusmo_temp_cididunt_ut_labore_et_dolore_magna_aliqua_ut_enim_ad_mini_veniam_quis_lorem_ipsum_dolor_sit_amet_consec_tetur_adipiscing_elit_sed_do_eiusmo_temp_cididunt_ut_labore_et_dolore_magna_aliqua_ut_enim_ad_mini_veniam_quis_lorem_ipsum_dolor_sit_amet_consec_tetur_adipiscing_elit_sed_do_eiusmo_temp_cididunt_ut_labore_et_dolore_magna_aliqua_ut_enim_ad_mini_veniam_quis_lorem_ipsum_dolor_sit_amet_consec_tetur_adipiscing_elit_sed_do_eiusmo_temp_cididunt_ut_labore_et_dolore_magna_aliqua_ut_enim_ad_mini_veniam_quis_lorem_ipsum_dolor_sit_amet_consec_tetur_adipiscing_elit_sed_do_eiusmo_temp_cididunt_ut_labore_et_dolore_magna_aliqua_ut_enim_ad_mini_veniam_quis_lorem_ipsum_dolor_sit_amet_consec_tetur_adipiscing_elit_sed_do_eiusmo_temp_cididunt_ut_labore_et_dolore_magna_aliqua_ut_enim_ad_mini_veniam_quis_lorem_ipsum_dolor_sit_amet_consec_tetur_adipiscing_elit_sed_do_eiusmo_temp_cididunt_ut_labore_et_dolore_magna_aliqua_ut_enim_ad_mini_veniam_quis_lorem_ipsum_dolor_sit_amet_consec_tetur_adipiscing_elit_sed_do_eiusmo_temp_cididunt_ut_labore_et_dolore_magna_aliqua_ut_enusmo_temp_cididu"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/grey"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="RtlCompat" />
+
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/rlconnexion"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/connecxiorlbg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:fontFamily="@font/josefinsans_semibold"
+            android:hint="@string/continuer_et_accepter"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_margin="12dp"
+            tools:ignore="RtlCompat" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

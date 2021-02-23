@@ -1,0 +1,263 @@
+<resources>
+    <string name="app_name">Ingoo</string>
+    <string name="dummy_text2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. There are many variations of Lorem Ipsum is simply dummy text</string>
+    <string name="dummy_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isnt anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isnt anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</string>
+    <string name="detail_txt">Décoration mariage blanc - lanternes mariage - centre de table - Quoi de plus chic que des cadres et chevalets sur les tables du mariage ? Avec des fleurs à côté, le rendu sera romantique et champêtre</string>
+    <string name="promo_txt1">Arche fleurie sous laquelle echanger ses  voeux.Ideal/npour un marriage en exterieur.</string>
+    <string name="vous_avez_d_j_un_compte">Vous avez déjà un compte?<font fgcolor="#67ABB1">Connexion</font></string>
+    <string name="email">Email</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="connexion">Connexion</string>
+    <string name="ou_se_connecter_avec">Ou se connecter avec</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="mot_de_passe_oubli">Mot de passe oublié?</string>
+    <string name="cr_er_un_compte">Créer un compte</string>
+    <string name="mot_de_passe_oublih">Mot de passe oublié</string>
+    <string name="envoyez">Envoyez</string>
+    <string name="entrez_l_adresse_e_mail_que_vous_avez_utilis_e_pour_cr_er_votre_compte_et_nous_vous_enverrons_un_lien_pour_r_initialiser_votre_mot_de_passe">Entrez l’adresse e-mail que vous avez utilisée pour créer votre compte et nous vous enverrons un lien pour réinitialiser votre mot de passe</string>
+    <string name="nous_venons_d_envoyez_votre_mot_de_passe_a_votre_adresse_e_email_vous_recevrez_sous_peu_votre_mot_de_passe">Nous venons d\'envoyez votre mot de passe à votre adresse e-mail. Vous recevrez sous peu votre mot de passe</string>
+    <string name="nom">Nom</string>
+    <string name="confirmez_votre_mot_de_passe">Confirmez votre mot de passe</string>
+    <string name="s_lectionnez_le_profil">Sélectionnez le profil</string>
+    <string name="s_inscrire">S’inscrire</string>
+    <string name="inscrivez_vous_avec">Inscrivez vous avec</string>
+    <string name="conditions_g_n_rales_d_utilisateurs">Conditions générales d’utilisateurs</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consec_tetur_adipiscing_elit_sed_do_eiusmo_temp_cididunt_ut_labore_et_dolore_magna_aliqua_ut_enim_ad_mini_veniam_quis_lorem_ipsum_dolor_sit_amet_consec_tetur_adipiscing_elit_sed_do_eiusmo_temp_cididunt_ut_labore_et_dolore_magna_aliqua_ut_enim_ad_mini_veniam_quis_lorem_ipsum_dolor_sit_amet_consec_tetur_adipiscing_elit_sed_do_eiusmo_temp_cididunt_ut_labore_et_dolore_magna_aliqua_ut_enim_ad_mini_veniam_quis_lorem_ipsum_dolor_sit_amet_consec_tetur_adipiscing_elit_sed_do_eiusmo_temp_cididunt_ut_labore_et_dolore_magna_aliqua_ut_enim_ad_mini_veniam_quis_lorem_ipsum_dolor_sit_amet_consec_tetur_adipiscing_elit_sed_do_eiusmo_temp_cididunt_ut_labore_et_dolore_magna_aliqua_ut_enim_ad_mini_veniam_quis_lorem_ipsum_dolor_sit_amet_consec_tetur_adipiscing_elit_sed_do_eiusmo_temp_cididunt_ut_labore_et_dolore_magna_aliqua_ut_enim_ad_mini_veniam_quis_lorem_ipsum_dolor_sit_amet_consec_tetur_adipiscing_elit_sed_do_eiusmo_temp_cididunt_ut_labore_et_dolore_magna_aliqua_ut_enim_ad_mini_veniam_quis_lorem_ipsum_dolor_sit_amet_consec_tetur_adipiscing_elit_sed_do_eiusmo_temp_cididunt_ut_labore_et_dolore_magna_aliqua_ut_enim_ad_mini_veniam_quis_lorem_ipsum_dolor_sit_amet_consec_tetur_adipiscing_elit_sed_do_eiusmo_temp_cididunt_ut_labore_et_dolore_magna_aliqua_ut_enim_ad_mini_veniam_quis_lorem_ipsum_dolor_sit_amet_consec_tetur_adipiscing_elit_sed_do_eiusmo_temp_cididunt_ut_labore_et_dolore_magna_aliqua_ut_enusmo_temp_cididu">Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmo temp cididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam quis. Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmo temp cididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam quis. Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmo temp cididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam quis.Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmo temp cididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam quis. Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmo temp cididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam quis.Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmo temp cididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam quis. Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmo temp cididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam quis.Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmo temp cididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam quis. Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmo temp cididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam quis.Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmo temp cididunt ut labore et dolore magna aliqua. Ut enusmo temp cididu</string>
+    <string name="continuer_et_accepter">Continuer et accepter</string>
+    <string name="politique_de_confidentialit">Politique de confidentialité</string>
+    <string name="mon_profil">Mon Profil</string>
+    <string name="lilue_event">Lilue event</string>
+    <string name="categories_a_la_une">Categories a la une</string>
+    <string name="_4_5">4.5</string>
+    <string name="voiur_tous_3">Voiur tous (3)</string>
+    <string name="prestetaires_a_la_une">Prestetaires a la une</string>
+    <string name="dj">Dj</string>
+    <string name="furniture">Furniture</string>
+    <string name="prestataires_la_une">Prestataires à la une</string>
+    <string name="decoration">Patisserie</string>
+    <string name="trois_quartiers_libreville">Trois quartiers, Libreville</string>
+    <string name="cat_gories_la_une">Catégories à la une</string>
+    <string name="d_coration">Décoration</string>
+    <string name="event_by_leaty">Event by Leaty</string>
+    <string name="les_anges_d_emma">Les anges d’Emma</string>
+    <string name="la_fine_bouch_e">La fine bouchée</string>
+    <string name="gateaux">Gateaux</string>
+    <string name="salles_de_mariage">Salles de mariage</string>
+    <string name="salles_de_merrige">Salles de merrige</string>
+    <string name="lo_fine_bouchee">Lo fine bouchee</string>
+    <string name="menu">Menu</string>
+
+    <string name="clients">Clients</string>
+    <string name="souscrire_au_pack">Souscrire au pack</string>
+    <string name="param_tres">Paramètres</string>
+    <string name="offres">Offres</string>
+    <string name="satistiques">Statistiques</string>
+    <string name="r_alisations">Réalisations</string>
+    <string name="d_connexion">Déconnexion</string>
+
+    <string name="demander_assistance">Demander assistance</string>
+    <string name="objet">Objet</string>
+    <string name="votre_message">Votre message</string>
+    <string name="line_ka">Line Ka</string>
+    <string name="live_veze">Live veze</string>
+    <string name="lucien_pacome">Lucien Pacome</string>
+    <string name="monique_mie">Monique mie</string>
+    <string name="lia_star">Lia star</string>
+    <string name="abbonements">Abonnements</string>
+    <string name="annael_illa">Annael Illa</string>
+
+    <string name="leeyah_nguema">Leeyah Nguema</string>
+
+    <string name="yasmine_bitome">Yasmine Bitome</string>
+
+    <string name="noelle_ngoye">Noelle Ngoye</string>
+    <string name="happy_bouyomeka">Happy Bouyomeka</string>
+
+    <string name="wilda_koffi">Wilda Koffi</string>
+    <string name="bloquer">Bloquer</string>
+    <string name="demandes">Demandes</string>
+    <string name="attente">Attente</string>
+    <string name="r_pondue">Répondue</string>
+    <string name="valid_e">Validée</string>
+    <string name="rejet_e">Rejetée</string>
+
+    <string name="j_aimerai_recevoir_un_devis_mon_theme_est">J\'aimerai recevoir un devis mon theme est...</string>
+    <string name="leats_events">Leats Events</string>
+    <string name="makeup_a">Makeup A</string>
+    <string name="aperie_chic">Aperie Chic</string>
+    <string name="l_eau_gooue">L\'eau gooue</string>
+    <string name="jet_invite_a_consulter_le_devis_deja_envoye">Jet invite a consulter le devis deja envoye...</string>
+    <string name="make_up_by_a">Make up by A</string>
+    <string name="on_commencera_par_des_soins">On commencera par des soins</string>
+
+
+    <string name="_27_05_2020">27/05/2020</string>
+    <string name="_26_05_2020">26/05/2020</string>
+    <string name="_26_05_2027">26/05/2027</string>
+    <string name="_25_05_2019">25/05/2019</string>
+    <string name="anael_antch">Anael ANTCH</string>
+    <string name="bonjour_vanessa_avez_vous_re_u_mon_devis_je_vous_ai_galement_envoyer_une_recommandation_de_boutique_pour_votre_robe_en_esp_rant_que_vous_trouverez_votre_compte">Bonjour Vanessa. Avez vous reçu mon devis? je vous ai également envoyer une recommandation de boutique pour votre robe. En espérant que vous trouverez votre compte.</string>
+    <string name="bonjour_vanessa_avez_vous_re_u_mon_devis_je_vous_ai_galement_envoyer_une_recommandation_de_boutique_pour_votre_robe_en_esp_rant_que_vous_trouverez_votre_compte_je_peux_m_occuper_de_la_d_coration_de_votre_v_hicule_donnez_moi_le_th_me_et_vos_pr_ference_de_couleurs">Bonjour Vanessa. Avez vous reçu mon devis? je vous ai également envoyer une recommandation de boutique pour votre robe. En espérant que vous trouverez votre compte. Je peux m’occuper de la décoration de votre véhicule. donnez-moi le thème et vos préference de couleurs.</string>
+    <string name="samedi_19_12">Samedi, 19:12</string>
+    <string name="notes_amp_commentaires"><![CDATA[Notes & Commentaires]]></string>
+    <string name="vos_infromations">Vos	informations</string>
+    <string name="moenyns_de_paiement">Moyens de paiement</string>
+    <string name="lilouevent_gamail_com">lilouevent@gamail.com</string>
+    <string name="trois_quartiers_librville">Trois Quartiers ,Libreville</string>
+    <string name="_241777_7777_777">+241777 7777 777</string>
+    <string name="airtel_money">Airtel Money</string>
+    <string name="mobile_cash">Mobile cash</string>
+    <string name="bgfi_mobile">BGFI Mobile</string>
+    <string name="visa">Visa</string>
+    <string name="choix_du_pack">Choix Du pack</string>
+    <string name="pack_kevazingo">Pack Kevazingo</string>
+    <string name="_20_000fcfa">20.000FCFA</string>
+    <string name="_4">4</string>
+    <string name="prixunitare">Prixunitaire</string>gmail
+    <string name="nombre_de_moise">Nombre De Moise</string>
+    <string name="total">Total</string>
+    <string name="_40_000fcfa">40.000FCFA</string>
+    <string name="num_ro_mobile_money">Numéro mobile money</string>
+    <string name="montant">Montant</string>
+    <string name="paiement_re_u">Paiement reçu</string>
+    <string name="paiement_r_ussi">Paiement réussi!</string>
+    <string name="votre_paiement_a_t_r_ussi_avec_succ_s_votre_abonnement_est_valable_pour_une_dur_e_de_2_mois_du_20_juillet_au_20_septembre_merci">Votre paiement a été réussi avec succès. Votre abonnement est valable pour une durée de 2 mois du 20 juillet au 20 septembre . Merci</string>
+    <string name="r_activer_son_pack">Réactiver son pack</string>
+    <string name="votre_pack_expirera_dans_deux_jours_vous_devez_imp_rativement_souscrire_un_autre_pack_ou_le_renouveler">Votre pack expirera dans deux jours. Vous devez impérativement souscrire à un autre pack ou le renouveler</string>
+    <string name="d_tail">Détail</string>
+    <string name="pack_moabi">Pack Moabi</string>
+    <string name="ce_qui_est_inclus">Ce qui est inclus</string>
+    <string name="promotions">Promotions</string>
+    <string name="arche_en_fleur">Arche en fleur</string>
+    <string name="arche_fleurie_sous_laquelle_changer_ses_voeux_id_al_pour_un_mariage_en_ext_rieur">Arche fleurie sous laquelle échanger ses voeux. Idéal pour un mariage en extérieur.</string>
+    <string name="du_20_05_2020_au_16_07_2020">Du 20/05/2020 au 16/07/2020</string>
+    <string name="d_couvrez_la_solution_qui_s_adaptera_le_mieux_votre_entreprise">Découvrez la solution qui s’adaptera le mieux à votre entreprise.</string>
+
+
+    <string name="profil">- Profil</string>
+    <string name="r_sum_des_7_derniers_jours">Résumé des 7 derniers jours</string>
+    <string name="vues_de_profil">Vues de profil</string>
+    <string name="devis">Devis</string>
+    <string name="recommandations">Recommandations</string>
+    <string name="partages">Partages</string>
+    <string name="click_sur_contact">Click sur contact</string>
+    <string name="utilisation_de_i_application_de_la_semaine">Utilisation de I\'application de la semaine</string>
+    <string name="statistiques">Statistiques</string>
+
+
+    <string name="compte">Compte</string>
+    <string name="changer_mot_de_passe">Changer mot de passe</string>
+    <string name="changer_not_de_passe">Option	de notification</string>
+    <string name="commentaires">Commentaires</string>
+
+    <string name="politique_de_confidentialit_s">Politique de confidentialités</string>
+
+    <string name="mot_de_passe_actuel">Mot de passe actuel</string>
+    <string name="nouveau_mot_de_passe">Nouveau mot de passe</string>
+    <string name="confirmer_mot_de_passe">Confirmer mot de passe</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="selectionnez">Selectionnez</string>
+    <string name="options_de_notification">Options de notification</string>
+    <string name="message_alerte">Message alerte</string>
+
+    <string name="message">Message</string>
+    <string name="commentaire">Commentaire</string>
+
+    <string name="autoriser">Autoriser</string>
+    <string name="politique_de_confidentialite">Politique de confidentialite</string>
+    <string name="mes_r_alisations">Mes réalisations</string>
+    <string name="d_tail_d_une_r_alisation">Détail d’une réalisation</string>
+    <string name="d_coration_mariage_blanc_lanternes_mariage_centre_de_table_quoi_de_plus_chic_que_des_cadres_et_chevalets_sur_les_tables_du_mariage_avec_des_fleurs_c_t_le_rendu_sera_romantique_et_champ_tre">Décoration mariage blanc - lanternes mariage - centre de table - Quoi de plus chic que des cadres et chevalets sur les tables du mariage ? Avec des fleurs à côté, le rendu sera romantique et champêtre</string>
+
+
+
+
+
+    <string name="modification_d_une_r_alisation">Modification d’une réalisation</string>
+
+
+    <string name="titre">Titre</string>
+    <string name="ajouter_une_image">Ajouter une image</string>
+    <string name="description">Description</string>
+    <string name="poster">Poster</string>
+    <string name="ajout_d_une_r_alisation">Ajout d’une réalisation</string>
+
+    <string name="d_co_de_table">Déco de table</string>
+    <string name="centre_de_table">Centre de table</string>
+
+    <string name="wedding_cake">Wedding cake</string>
+    <string name="gateau_la_cr_me">Gateau à la crème</string>
+
+    <string name="chevalet">Chevalet</string>
+    <string name="bouquet_mari_e">Bouquet mariée</string>
+    <string name="messages">Messages</string>
+    <string name="recherche">Recherche</string>
+
+    <string name="pernons_en_change_des_cocktails">pernons en change des cocktails...</string>
+    <string name="_16_30">16:30</string>
+    <string name="ogooue_traiteurs">Ogooue traiteurs</string>
+
+
+    <string name="_25_05_2020">25/05/2020</string>
+    <string name="comment_profiter_de_la_pramotion">Comment profiter de la pramotion..</string>
+    <string name="corine_m_alba">Corine M. ALBA</string>
+    <string name="lorem_ipsum_is_simply_dummy_text_of_the_lorem_ipsum_is">Lorem Ipsum is simply dummy text of the Lorem Ipsum is</string>
+
+    <string name="dimanche_19_12">Dimanche, 19:12</string>
+    <string name="aujourd_hui">Aujourd’hui</string>
+    <string name="_09_12">09:12</string>
+    <string name="notifications">Notifications</string>
+    <string name="carine_m_alba">Carine M. ALBA</string>
+    <string name="aide">Aide</string>
+    <string name="votre_pack_expire_dans_10_jours">Votre pack expire dans 10 jours</string>
+    <string name="demande_de_devis">Demande de devis</string>
+    <string name="comment_profiter_de_la_promotion">Comment profiter de la promotion</string>
+    <string name="samedi">Samedi</string>
+
+    <string name="admin">Admin</string>
+
+
+
+    <string name="malicka_bengo">Malicka BENGO</string>
+
+    <string name="sp_cialis_dans_la_cr_ation_d_v_nements_et_la_d_coration_lilou_event_met_votre_disposition_un_service_de_qualit">
+        Spécialisé dans la création d’évènements et la décoration, Lilou Event met à votre disposition un service de qualité.</string>
+    <string name="modifier_le_profil">Modifier le Profil</string>
+    <string name="lilou_event">Lilou event</string>
+    <string name="lilouevent_gmail_com">lilouevent@gmail.com</string>
+    <string name="_241777778801">+241777778801</string>
+    <string name="service_de_d_corations">Service de décorations</string>
+
+    <string name="modifire_profil">Mattre à jour</string>
+
+
+
+    <string name="s_inscrire_string">Sinscrire</string>
+
+    <string name="mot_de_passe_string">Mot de passe</string>
+
+    <string name="confirmez_votre_mot_de_passe_string">Confirmez votre mot de passe</string>
+
+    <string name="vous_avez_d_j__un_compte__string">Vous avez dj un compte?</string>
+
+    <string name="_connexion_string">Connexion</string>
+
+    <string name="inscrivez_vous_avec__string">Inscrivez vous avec </string>
+
+    <string name="nom_string">Nom</string>
+
+    <string name="email_string">Email</string>
+
+    <string name="facebook_string">Facebook</string>
+
+    <string name="google_string">Google</string>
+
+    <string name="s_lectionnez_le_profil_string">Slectionnez le profil</string>
+
+    <string name="confirmez_votre_mot_de_passe_ek1_string">Confirmez votre mot de passe</string>
+    <string name="paypal">Paypal</string>
+
+
+</resources>

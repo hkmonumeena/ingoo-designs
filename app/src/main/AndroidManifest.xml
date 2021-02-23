@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ingoo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.FiftyThreeActivity">
+        </activity>
+        <activity android:name=".activities.FiftyOneActivity">
+        </activity>
+        <activity android:name=".activities.FiftyActivity">
+        </activity>
+        <activity android:name=".activities.FiftyTwoActivity">
+
+        </activity>
+        <activity android:name=".activities.FortyNineActivity">
+
+
+        </activity>
+        <activity android:name=".activities.FortyEightActivity">
+
+
+        </activity>
+        <activity android:name=".activities.FortySevenActivity" />
+        <activity android:name=".activities.FortySixActivity" />
+        <activity android:name=".activities.FortyFiveActivity">
+
+
+        </activity>
+        <activity android:name=".activities.FortyThreeActivity">
+
+
+
+
+
+        </activity>
+        <activity android:name=".activities.FortyTwoActivity">
+
+
+
+
+        </activity>
+        <activity android:name=".activities.FortyFourActivity">
+
+        </activity>
+        <activity android:name=".activities.ThirtyNineActivity">
+
+
+        </activity>
+        <activity android:name=".activities.ThirtyEightActivity"></activity>
+        <activity android:name=".activities.FortyOneActivity"></activity>
+        <activity android:name=".activities.FortyActivity">
+
+
+        </activity>
+        <activity android:name=".activities.ThirtySevenActivity"></activity>
+        <activity android:name=".activities.ThirtySixActivity"></activity>
+        <activity android:name=".activities.ThirtyThreeActivity"></activity>
+        <activity android:name=".activities.ThirtyFiveActivity"></activity>
+        <activity android:name=".activities.ThirtyFourActivity"></activity>
+        <activity android:name=".activities.TwentyEightMainActivity">
+
+
+        </activity>
+        <activity android:name=".activities.ThirtyTwoActivity" />
+        <activity android:name=".activities.ThirtyOneActivity"></activity>
+        <activity android:name=".activities.ThirtyActivity"></activity>
+        <activity android:name=".activities.TwentyNineActivity" />
+        <activity android:name=".activities.TwentyEightActivity"></activity>
+        <activity android:name=".activities.TwentyActivity"></activity>
+        <activity android:name=".activities.NineteethActivity">
+
+        </activity>
+        <activity android:name=".activities.EighteenthActivity">
+
+
+        </activity>
+        <activity android:name=".activities.SeventeethActivity">
+
+        </activity>
+        <activity android:name=".activities.SixteenthActivity">
+
+
+        </activity>
+
+        <activity android:name=".activities.TwentySeventhActivity">
+
+
+        </activity>
+        <activity android:name=".activities.TwentySixActivity">
+
+        </activity>
+        <activity android:name=".activities.TwentyFiveActivity">
+
+        </activity>
+        <activity android:name=".activities.TwentyFourActivity">
+
+        </activity>
+        <activity android:name=".activities.TwentyThreeActivity">
+
+
+        </activity>
+        <activity android:name=".activities.TwentyTwoActivity">
+
+
+        </activity>
+        <activity android:name=".activities.TwentyOneActivity">
+
+
+        </activity>
+        <activity android:name=".activities.FifteenthActivity">
+
+
+        </activity>
+       <activity android:name=".activities.FourteenthActivity">
+
+
+     </activity>
+        <activity android:name=".activities.ThirteenActivity">
+
+        </activity>
+        <activity android:name=".activities.TwealthActivity">
+
+        </activity>
+
+        <activity android:name=".activities.EleventhActivity">
+
+        </activity>
+        <activity android:name=".activities.TenthActivity">
+
+
+        </activity>
+        <activity android:name=".activities.NinthActivity">
+
+
+        </activity>
+        <activity android:name=".activities.EightActivity">
+
+
+        </activity>
+        <activity android:name=".activities.SeventhActivity">
+
+        </activity>
+        <activity android:name=".activities.SixthActivity">
+
+
+        </activity>
+        <activity android:name=".activities.FifthActivity">
+
+        </activity>
+        <activity android:name=".activities.SignupActivity">
+        </activity>
+        <activity android:name=".activities.ForthActivity">
+
+
+        </activity>
+        <activity android:name=".activities.ThirdActivity">
+
+
+        </activity>
+        <activity android:name=".activities.LoginActivity">
+
+
+        </activity>
+        <activity android:name=".activities.MainActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>

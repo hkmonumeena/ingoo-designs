@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.TwentyEightMainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/rel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/offer_back"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="-8dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/blackback" />
+
+                <TextView
+                    android:id="@+id/offer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:gravity="center"
+                    android:text="@string/offres"
+                    android:textColor="@color/headerlightcolor"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/offer1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/offer"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/josefinsans_semibold"
+                    android:text="@string/d_couvrez_la_solution_qui_s_adaptera_le_mieux_votre_entreprise"
+                    android:textColor="#3F4069"
+                    android:textSize="16dp"
+                    />
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/offer1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#939393" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rel"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/josefinsans_semibold"
+                    android:text="@string/pack_moabi"
+                    android:textColor="@color/pink_color"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#6E7FAA"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="@string/ce_qui_est_inclus"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="@string/profil"
+                    android:textSize="16dp"
+                    android:textColor="#6E7FAA"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#6E7FAA"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="- Publier des services"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#6E7FAA"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="- Contacter  un client"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#6E7FAA"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="- Publier les realisations"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#6E7FAA"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="- Visualiser les avis des clients"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#6E7FAA"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="- Visualiser les demandes de devis"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#6E7FAA"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="- Publicité pop-up"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#6E7FAA"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="- Tableau de bord avancé"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#6E7FAA"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="- Positionnement entre 10 et 20"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/Prix"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/josefinsans_bold"
+                        android:text="- Prix 10.000FCFA"
+                        android:textSize="16dp"
+
+                        android:textColor="#6E7FAA"
+                        android:textStyle="bold" />
+
+
+                    <ImageView
+                        android:id="@+id/img_payer"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/payer_btn" />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/josefinsans_semibold"
+                    android:text="Pack Padouk"
+                    android:textColor="@color/pink_color"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Ce qui est inclus"
+                    android:textSize="14dp"
+                    android:textColor="#6E7FAA"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="- Profil"
+                    android:textColor="#6E7FAA"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="- Publier des services"
+                    android:textSize="16dp"
+                    android:textColor="#6E7FAA"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="- Contacter  un client"
+                    android:textSize="16dp"
+                    android:textColor="#6E7FAA"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="- Publier les realisations"
+                    android:textSize="16dp"
+                    android:textColor="#6E7FAA"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="- Visualiser les avis des clients"
+                    android:textSize="16dp"
+                    android:textColor="#6E7FAA"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="- Visualiser les demandes de devis"
+                    android:textSize="16dp"
+                    android:textColor="#6E7FAA"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#6E7FAA"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="- Publicité pop-up"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#6E7FAA"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="- Tableau de bord avancé"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#6E7FAA"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="- Positionnement entre 10 et 20"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/Prix"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/josefinsans_regular"
+                        android:text="- Prix 10.000FCFA"
+                        android:textSize="14dp"
+                        android:textColor="#6E7FAA"
+                        android:textStyle="bold" />
+
+
+                    <ImageView
+                        android:id="@+id/img_payer"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/payer_btn" />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear1"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Pack Kevazingo"
+                    android:textColor="@color/pink_color"
+                    android:fontFamily="@font/josefinsans_semibold"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Ce qui est inclus"
+                    android:textSize="14dp"
+                    android:textColor="#6E7FAA"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="- Profil"
+                    android:textSize="16dp"
+                    android:textColor="#6E7FAA"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="- Publier des services"
+                    android:textSize="16dp"
+                    android:textColor="#6E7FAA"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="- Contacter  un client"
+                    android:textSize="16dp"
+                    android:textColor="#6E7FAA"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="- Publier les realisations"
+                    android:textSize="16dp"
+                    android:textColor="#6E7FAA"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="- Visualiser les avis des clients"
+                    android:textSize="16dp"
+                    android:textColor="#6E7FAA"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="- Visualiser les demandes de devis"
+                    android:textSize="16dp"
+                    android:textColor="#6E7FAA"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="- Publicité pop-up"
+                    android:textSize="16dp"
+                    android:textColor="#6E7FAA"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="- Tableau de bord avancé"
+                    android:textSize="16dp"
+                    android:textColor="#6E7FAA"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="- Positionnement entre 10 et 20"
+                    android:textSize="16dp"
+                    android:textColor="#6E7FAA"
+                    android:textStyle="bold" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="40dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/Prix"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#6E7FAA"
+                        android:fontFamily="@font/josefinsans_regular"
+                        android:text="- Prix 10.000FCFA"
+                        android:textSize="16dp" />
+
+
+                    <ImageView
+                        android:id="@+id/img_payer"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/payer_btn" />
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

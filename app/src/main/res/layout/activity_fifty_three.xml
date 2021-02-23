@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.FiftyThreeActivity">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        
+        android:layout_above="@+id/txt_profil53">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="60dp">
+
+                    <ImageView
+                        android:id="@+id/back_53"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/blackback" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/josefinsans_semibold"
+                        android:text="@string/modifier_le_profil"
+                        android:textColor="@color/headerlightcolor"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/ic_cancel_24px" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/img_profile"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/icon47"
+                        tools:layout_editor_absoluteX="30dp"
+                        tools:layout_editor_absoluteY="16dp" />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:layout_toEndOf="@id/img_profile"
+                        android:src="@drawable/ic_camara"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="@+id/img_profile" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"
+                android:background="#F6F7FF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/josefinsans_semibold"
+                    android:text="Informations generales"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/box_rec"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/pro53"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/pro"
+                        app:tint="@color/rock_blue" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="16dp"
+                        android:layout_toRightOf="@id/pro53"
+                        android:background="@null"
+                        android:fontFamily="@font/josefinsans_semibold"
+                        android:text="@string/lilou_event"
+                        android:textColor="@color/rock_blue"
+                        android:textSize="18dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/box_rec"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/pro53"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:padding="4dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_email"
+                        android:tint="@color/rock_blue" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="16dp"
+                        android:layout_toRightOf="@id/pro53"
+                        android:background="@null"
+                        android:fontFamily="@font/josefinsans_semibold"
+                        android:text="@string/lilouevent_gmail_com"
+                        android:textColor="@color/rock_blue"
+                        android:textSize="18dp" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/box_rec"
+                    android:padding="5dp">
+
+
+                    <ImageView
+                        android:id="@+id/call"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/call"
+                        android:tint="@color/rock_blue" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/call"
+                        android:background="@null"
+                        android:fontFamily="@font/josefinsans_semibold"
+                        android:text="@string/_241777778801"
+                        android:textColor="@color/rock_blue"
+                        android:textSize="18dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/box_rec"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/ic_place_24px"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_place_24px" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/ic_place_24px"
+                        android:background="@null"
+                        android:fontFamily="@font/josefinsans_semibold"
+                        android:text="@string/trois_quartiers_libreville"
+                        android:textColor="@color/rock_blue"
+                        android:textSize="18dp" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/box_rec"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/down_53"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/downa"
+                        android:tint="@color/rock_blue" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:layout_toRightOf="@id/down_53"
+                        android:background="@null"
+                        android:fontFamily="@font/josefinsans_semibold"
+                        android:text="@string/service_de_d_corations"
+                        android:textColor="@color/rock_blue"
+                        android:textSize="18dp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/josefinsans_regular"
+                    android:textColor="@color/inputbluishblack"
+                    android:textAlignment="viewStart"
+                    android:text="@string/sp_cialis_dans_la_cr_ation_d_v_nements_et_la_d_coration_lilou_event_met_votre_disposition_un_service_de_qualit"
+                    android:textSize="18dp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/txt_profil53"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/connecxiorlbg"
+        android:fontFamily="@font/josefinsans_bold2"
+        android:gravity="center"
+        android:text="@string/modifire_profil"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+</RelativeLayout>
