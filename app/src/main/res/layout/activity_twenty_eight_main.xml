@@ -93,10 +93,10 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="5dp"
                     android:textColor="#6E7FAA"
-                    android:fontFamily="@font/josefinsans_bold"
+                    android:fontFamily="@font/josefinsans_bold2"
                     android:text="@string/ce_qui_est_inclus"
                     android:textSize="16dp"
-                    android:textStyle="bold" />
+                   />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -246,8 +246,8 @@
                     android:layout_marginTop="5dp"
                     android:text="Ce qui est inclus"
                     android:textSize="14dp"
-                    android:textColor="#6E7FAA"
-                    android:textStyle="bold" />
+                    android:fontFamily="@font/josefinsans_bold2"
+                    android:textColor="#6E7FAA" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -396,15 +396,15 @@
                     android:layout_marginTop="5dp"
                     android:text="Ce qui est inclus"
                     android:textSize="14dp"
-                    android:textColor="#6E7FAA"
-                    android:textStyle="bold" />
+                    android:fontFamily="@font/josefinsans_bold2"
+                    android:textColor="#6E7FAA" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:fontFamily="@font/josefinsans_bold"
+                    android:fontFamily="@font/josefinsans_bold2"
                     android:text="- Profil"
                     android:textSize="16dp"
                     android:textColor="#6E7FAA"

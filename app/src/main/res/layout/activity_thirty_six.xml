@@ -26,7 +26,6 @@
                     android:layout_width="45dp"
                     android:layout_height="45dp"
                     android:layout_marginTop="6dp"
-                    android:layout_marginLeft="10dp"
                     android:background="@drawable/blackback" />
 
                 <TextView
@@ -55,15 +54,16 @@
                     android:id="@+id/selectionnez"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
+                    android:background="#F6F7FF"
                     android:layout_below="@+id/opations"
                     android:layout_marginTop="10dp"
-                    android:fontFamily="@font/josefinsans_bold"
+                    android:fontFamily="@font/josefinsans_bold2"
                     android:gravity="center_vertical"
                     android:paddingStart="10dp"
                     android:text="@string/selectionnez"
                     android:textColor="@color/rock_blue"
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
+                    android:textSize="20sp"
+                    />
 
                 <TextView
                     android:id="@+id/messagealerte"
@@ -74,8 +74,7 @@
                     android:paddingStart="10dp"
                     android:textColor="#5663FF"
                     android:fontFamily="@font/josefinsans_semibold"
-                    android:textSize="18dp"
-                    android:textStyle="bold"
+                    android:textSize="16dp"
                     android:gravity="center_vertical"
                     android:padding="5dp" />
 
@@ -107,8 +106,8 @@
 
                     android:text="@string/email"
                     android:textColor="#3E3F68"
-                    android:textSize="18dp"
-                    android:textStyle="bold" />
+                    android:textSize="16dp"
+                />
 
                 <ImageView
                     android:id="@+id/circle"
@@ -136,8 +135,8 @@
                     android:paddingStart="10dp"
                     android:text="@string/message"
                     android:textColor="#3E3F68"
-                    android:textSize="18dp"
-                    android:textStyle="bold" />
+                    android:textSize="16dp"
+             />
 
                 <ImageView
                     android:id="@+id/circle1"
@@ -167,7 +166,6 @@
         android:fontFamily="@font/josefinsans_bold2"
         android:layout_marginBottom="20dp"
         android:text="@string/enregistrer"
-        android:textSize="18dp"
-        android:textStyle="bold" />
+        android:textSize="18dp" />
 
 </RelativeLayout>

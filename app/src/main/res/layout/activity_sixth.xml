@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-   >
+    android:background="@color/white">
 
     <RelativeLayout
         android:id="@+id/constraintLayout2"
@@ -33,18 +32,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:textAlignment="center"
             android:fontFamily="@font/josefinsans_bold"
             android:text="@string/politique_de_confidentialit"
+            android:textAlignment="center"
             android:textColor="@color/headerlightcolor"
-            android:textSize="24dp"
-            />
+            android:textSize="24dp" />
+
     </RelativeLayout>
 
     <ScrollView
-        android:layout_below="@+id/constraintLayout2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_below="@+id/constraintLayout2">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -54,7 +54,6 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="516dp"
-
                 android:layout_marginStart="1dp"
                 android:layout_marginLeft="1dp"
                 android:layout_marginTop="1dp"
@@ -86,14 +85,10 @@
                     app:layout_constraintTop_toTopOf="parent"
                     tools:ignore="RtlCompat" />
 
-
             </RelativeLayout>
 
 
-
         </LinearLayout>
-
-
 
 
     </ScrollView>
@@ -101,7 +96,7 @@
     <RelativeLayout
         android:id="@+id/rlconnexion"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="55dp"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="40dp"
         android:layout_marginTop="20dp"
@@ -110,9 +105,7 @@
         android:background="@drawable/connecxiorlbg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-
-        >
+        app:layout_constraintStart_toStartOf="parent">
 
 
         <TextView
@@ -125,7 +118,7 @@
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
-            android:textSize="16sp"
+            android:textSize="18sp"
             android:textStyle="bold"
             tools:ignore="RtlCompat" />
 

@@ -13,11 +13,11 @@
         android:orientation="vertical">
 
         <RelativeLayout
-            android:layout_width="match_parent"
             android:id="@+id/rlHeader"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
             android:layout_marginTop="20dp"
-            android:background="@color/white"
-            android:layout_height="60dp">
+            android:background="@color/white">
 
             <ImageView
                 android:id="@+id/back_48"
@@ -51,11 +51,11 @@
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:padding="4dp"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
                 android:layout_marginRight="10dp"
+                android:padding="4dp"
                 android:src="@drawable/search"
                 app:tint="@color/inputbluishblack" />
 
@@ -132,8 +132,8 @@ Swing elit doisumo mod tempor ut labore. Lorem ipsum Lorem ipsum damet, cpnsect 
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="15dp"
                 android:layout_marginBottom="10dp"
-                android:text="@string/_09_12"
                 android:fontFamily="@font/josefinsans_regular"
+                android:text="@string/_09_12"
                 android:textSize="16dp" />
         </LinearLayout>
 
@@ -142,20 +142,21 @@ Swing elit doisumo mod tempor ut labore. Lorem ipsum Lorem ipsum damet, cpnsect 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
         android:layout_marginBottom="10dp"
-        android:layout_alignParentBottom="true">
+        android:orientation="horizontal">
 
 
         <RelativeLayout
+            android:id="@+id/chatBox"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginLeft="15dp"
-            android:id="@+id/chatBox"
             android:layout_centerVertical="true"
-            android:layout_toLeftOf="@+id/camara_ic"
+            android:layout_marginLeft="15dp"
             android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/camara_ic"
             android:background="@drawable/sape1">
+
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -169,29 +170,27 @@ Swing elit doisumo mod tempor ut labore. Lorem ipsum Lorem ipsum damet, cpnsect 
         </RelativeLayout>
 
         <ImageView
+            android:id="@+id/camara_ic"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:padding="5dp"
-            android:id="@+id/camara_ic"
+            android:layout_centerVertical="true"
             android:layout_marginRight="5dp"
             android:layout_toLeftOf="@id/mic"
+            android:padding="5dp"
             android:src="@drawable/camara_ic"
-            android:tint="#727C8E"
-            android:layout_centerVertical="true"
-            />
+            android:tint="#727C8E" />
 
         <ImageView
+            android:id="@+id/mic"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:id="@+id/mic"
-            android:tint="#727C8E"
-            android:padding="5dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="5dp"
-            android:src="@drawable/ic_mic_none_24px"
-            android:layout_centerVertical="true"
             android:layout_alignParentRight="true"
-            />
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_mic_none_24px"
+            android:tint="#727C8E" />
 
     </RelativeLayout>
 

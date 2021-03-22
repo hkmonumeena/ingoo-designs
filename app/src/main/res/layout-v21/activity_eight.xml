@@ -15,7 +15,6 @@
         android:gravity="center"
         android:weightSum="5">
 
-
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -26,7 +25,6 @@
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:padding="4dp"
-
                 android:src="@drawable/homegrey" />
 
             <ImageView
@@ -148,9 +146,9 @@
                     android:id="@+id/imageView5"
                     android:layout_width="45dp"
                     android:layout_height="45dp"
-                    android:layout_marginTop="-10dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="10dp"
+                    android:layout_marginTop="-10dp"
                     app:srcCompat="@drawable/blackback" />
 
                 <TextView
@@ -170,10 +168,10 @@
                     android:id="@+id/imageView6"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:padding="4dp"
                     android:layout_alignParentRight="true"
                     android:layout_marginEnd="10dp"
                     android:layout_marginRight="10dp"
+                    android:padding="4dp"
                     android:tint="@color/black"
                     app:srcCompat="@drawable/search" />
 
@@ -196,13 +194,14 @@
                 android:id="@+id/cardView"
                 android:layout_width="match_parent"
                 android:layout_height="240dp"
-                android:elevation="8dp"
-                android:translationZ="0.3dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
+                android:translationZ="0.3dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="14dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent">
 
@@ -233,8 +232,8 @@
 
 
                     <RelativeLayout
-                        android:layout_width="70dp"
-                        android:layout_height="35dp"
+                        android:layout_width="58dp"
+                        android:layout_height="30dp"
                         android:layout_alignParentRight="true"
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="10dp"
@@ -246,7 +245,6 @@
                             android:layout_alignParentLeft="true"
                             android:layout_centerVertical="true"
                             android:padding="4dp"
-
                             android:src="@drawable/star" />
 
                         <TextView
@@ -295,9 +293,9 @@
             </androidx.cardview.widget.CardView>
 
             <RelativeLayout
+                android:id="@+id/categories_a_la_une"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/categories_a_la_une"
                 android:layout_marginTop="15dp">
 
                 <TextView
@@ -353,8 +351,8 @@
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:background="@drawable/blurnew"
-                            android:layout_height="match_parent">
+                            android:layout_height="match_parent"
+                            android:background="@drawable/blurnew">
 
                             <ImageView
                                 android:id="@+id/imageView8"
@@ -374,7 +372,7 @@
                                 android:gravity="center"
                                 android:text="@string/dj"
                                 android:textColor="@color/white"
-                                android:textSize="20dp"
+                                android:textSize="16dp"
                                 android:textStyle="bold">
 
 
@@ -403,8 +401,8 @@
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:background="@drawable/blurnew"
-                            android:layout_height="match_parent">
+                            android:layout_height="match_parent"
+                            android:background="@drawable/blurnew">
 
                             <ImageView
                                 android:id="@+id/imageView8"
@@ -424,7 +422,7 @@
                                 android:gravity="center"
                                 android:text="@string/decoration"
                                 android:textColor="@color/white"
-                                android:textSize="20dp"
+                                android:textSize="16dp"
                                 android:textStyle="bold">
 
 
@@ -451,8 +449,8 @@
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:background="@drawable/blurnew"
-                            android:layout_height="match_parent">
+                            android:layout_height="match_parent"
+                            android:background="@drawable/blurnew">
 
                             <ImageView
                                 android:id="@+id/imageView8"
@@ -470,9 +468,9 @@
                                 android:layout_centerInParent="true"
                                 android:fontFamily="@font/josefinsans_semibold"
                                 android:gravity="center"
-                                android:text="@string/furniture"
+                                android:text="Fleuristes"
                                 android:textColor="@color/white"
-                                android:textSize="20dp"
+                                android:textSize="16dp"
                                 android:textStyle="bold">
 
 
@@ -486,8 +484,8 @@
 
 
             <RelativeLayout
-                android:layout_width="match_parent"
                 android:id="@+id/prestetaires_a_la_une"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <TextView
@@ -567,9 +565,6 @@
 
 
     </ScrollView>
-
-
-
 
 
 </RelativeLayout>

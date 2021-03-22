@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".activities.ThirtyFourActivity">
 
     <RelativeLayout
@@ -46,16 +47,17 @@
         <TextView
             android:id="@+id/compte"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_below="@id/rlHeader"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:fontFamily="@font/josefinsans_semibold"
             android:gravity="center_vertical"
             android:text="@string/compte"
+            android:background="#F6F7FF"
             android:textColor="@color/rock_blue"
             android:textSize="20dp"
-            android:textStyle="bold" />
+ />
 
 
         <RelativeLayout
@@ -85,7 +87,7 @@
                 android:text="@string/changer_mot_de_passe"
                 android:textColor="#3E3F68"
                 android:textSize="18dp"
-                android:textStyle="bold" />
+               />
 
             <ImageView
                 android:id="@+id/img"
@@ -135,7 +137,7 @@
                 android:text="@string/changer_not_de_passe"
                 android:textColor="#3E3F68"
                 android:textSize="18dp"
-                android:textStyle="bold" />
+                />
 
             <ImageView
                 android:id="@+id/img1"
@@ -185,7 +187,7 @@
                 android:text="@string/commentaires"
                 android:textColor="#3E3F68"
                 android:textSize="18dp"
-                android:textStyle="bold" />
+                />
 
             <ImageView
                 android:id="@+id/img2"
@@ -220,6 +222,7 @@ android:layout_centerVertical="true"
             android:paddingStart="10dp"
             android:text="Autres"
             android:textColor="#8A98BA"
+            android:background="#F6F7FF"
             android:textSize="20dp"
             android:textStyle="bold" />
 
@@ -240,7 +243,7 @@ android:layout_centerVertical="true"
                 android:text="@string/conditions_g_n_rales_d_utilisateurs"
                 android:textColor="#3E3F68"
                 android:textSize="18dp"
-                android:textStyle="bold" />
+                />
 
             <ImageView
                 android:id="@+id/img4"
@@ -281,7 +284,7 @@ android:layout_centerVertical="true"
                 android:text="@string/politique_de_confidentialit_s"
                 android:textColor="#3E3F68"
                 android:textSize="18dp"
-                android:textStyle="bold" />
+               />
 
             <ImageView
                 android:id="@+id/img5"

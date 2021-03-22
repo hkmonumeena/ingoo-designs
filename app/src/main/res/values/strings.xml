@@ -36,7 +36,7 @@
     <string name="dj">Dj</string>
     <string name="furniture">Furniture</string>
     <string name="prestataires_la_une">Prestataires à la une</string>
-    <string name="decoration">Patisserie</string>
+    <string name="decoration">Décorations</string>
     <string name="trois_quartiers_libreville">Trois quartiers, Libreville</string>
     <string name="cat_gories_la_une">Catégories à la une</string>
     <string name="d_coration">Décoration</string>
@@ -48,7 +48,6 @@
     <string name="salles_de_merrige">Salles de merrige</string>
     <string name="lo_fine_bouchee">Lo fine bouchee</string>
     <string name="menu">Menu</string>
-
     <string name="clients">Clients</string>
     <string name="souscrire_au_pack">Souscrire au pack</string>
     <string name="param_tres">Paramètres</string>
@@ -56,7 +55,6 @@
     <string name="satistiques">Statistiques</string>
     <string name="r_alisations">Réalisations</string>
     <string name="d_connexion">Déconnexion</string>
-
     <string name="demander_assistance">Demander assistance</string>
     <string name="objet">Objet</string>
     <string name="votre_message">Votre message</string>
@@ -67,14 +65,10 @@
     <string name="lia_star">Lia star</string>
     <string name="abbonements">Abonnements</string>
     <string name="annael_illa">Annael Illa</string>
-
     <string name="leeyah_nguema">Leeyah Nguema</string>
-
     <string name="yasmine_bitome">Yasmine Bitome</string>
-
     <string name="noelle_ngoye">Noelle Ngoye</string>
     <string name="happy_bouyomeka">Happy Bouyomeka</string>
-
     <string name="wilda_koffi">Wilda Koffi</string>
     <string name="bloquer">Bloquer</string>
     <string name="demandes">Demandes</string>
@@ -82,7 +76,6 @@
     <string name="r_pondue">Répondue</string>
     <string name="valid_e">Validée</string>
     <string name="rejet_e">Rejetée</string>
-
     <string name="j_aimerai_recevoir_un_devis_mon_theme_est">J\'aimerai recevoir un devis mon theme est...</string>
     <string name="leats_events">Leats Events</string>
     <string name="makeup_a">Makeup A</string>
@@ -91,8 +84,6 @@
     <string name="jet_invite_a_consulter_le_devis_deja_envoye">Jet invite a consulter le devis deja envoye...</string>
     <string name="make_up_by_a">Make up by A</string>
     <string name="on_commencera_par_des_soins">On commencera par des soins</string>
-
-
     <string name="_27_05_2020">27/05/2020</string>
     <string name="_26_05_2020">26/05/2020</string>
     <string name="_26_05_2027">26/05/2027</string>
@@ -134,8 +125,6 @@
     <string name="arche_fleurie_sous_laquelle_changer_ses_voeux_id_al_pour_un_mariage_en_ext_rieur">Arche fleurie sous laquelle échanger ses voeux. Idéal pour un mariage en extérieur.</string>
     <string name="du_20_05_2020_au_16_07_2020">Du 20/05/2020 au 16/07/2020</string>
     <string name="d_couvrez_la_solution_qui_s_adaptera_le_mieux_votre_entreprise">Découvrez la solution qui s’adaptera le mieux à votre entreprise.</string>
-
-
     <string name="profil">- Profil</string>
     <string name="r_sum_des_7_derniers_jours">Résumé des 7 derniers jours</string>
     <string name="vues_de_profil">Vues de profil</string>
@@ -145,15 +134,11 @@
     <string name="click_sur_contact">Click sur contact</string>
     <string name="utilisation_de_i_application_de_la_semaine">Utilisation de I\'application de la semaine</string>
     <string name="statistiques">Statistiques</string>
-
-
     <string name="compte">Compte</string>
     <string name="changer_mot_de_passe">Changer mot de passe</string>
     <string name="changer_not_de_passe">Option	de notification</string>
     <string name="commentaires">Commentaires</string>
-
     <string name="politique_de_confidentialit_s">Politique de confidentialités</string>
-
     <string name="mot_de_passe_actuel">Mot de passe actuel</string>
     <string name="nouveau_mot_de_passe">Nouveau mot de passe</string>
     <string name="confirmer_mot_de_passe">Confirmer mot de passe</string>
@@ -161,50 +146,34 @@
     <string name="selectionnez">Selectionnez</string>
     <string name="options_de_notification">Options de notification</string>
     <string name="message_alerte">Message alerte</string>
-
     <string name="message">Message</string>
     <string name="commentaire">Commentaire</string>
-
     <string name="autoriser">Autoriser</string>
     <string name="politique_de_confidentialite">Politique de confidentialite</string>
     <string name="mes_r_alisations">Mes réalisations</string>
     <string name="d_tail_d_une_r_alisation">Détail d’une réalisation</string>
     <string name="d_coration_mariage_blanc_lanternes_mariage_centre_de_table_quoi_de_plus_chic_que_des_cadres_et_chevalets_sur_les_tables_du_mariage_avec_des_fleurs_c_t_le_rendu_sera_romantique_et_champ_tre">Décoration mariage blanc - lanternes mariage - centre de table - Quoi de plus chic que des cadres et chevalets sur les tables du mariage ? Avec des fleurs à côté, le rendu sera romantique et champêtre</string>
-
-
-
-
-
     <string name="modification_d_une_r_alisation">Modification d’une réalisation</string>
-
-
     <string name="titre">Titre</string>
     <string name="ajouter_une_image">Ajouter une image</string>
     <string name="description">Description</string>
     <string name="poster">Poster</string>
     <string name="ajout_d_une_r_alisation">Ajout d’une réalisation</string>
-
     <string name="d_co_de_table">Déco de table</string>
     <string name="centre_de_table">Centre de table</string>
-
     <string name="wedding_cake">Wedding cake</string>
     <string name="gateau_la_cr_me">Gateau à la crème</string>
-
     <string name="chevalet">Chevalet</string>
     <string name="bouquet_mari_e">Bouquet mariée</string>
     <string name="messages">Messages</string>
     <string name="recherche">Recherche</string>
-
     <string name="pernons_en_change_des_cocktails">pernons en change des cocktails...</string>
     <string name="_16_30">16:30</string>
     <string name="ogooue_traiteurs">Ogooue traiteurs</string>
-
-
     <string name="_25_05_2020">25/05/2020</string>
     <string name="comment_profiter_de_la_pramotion">Comment profiter de la pramotion..</string>
     <string name="corine_m_alba">Corine M. ALBA</string>
     <string name="lorem_ipsum_is_simply_dummy_text_of_the_lorem_ipsum_is">Lorem Ipsum is simply dummy text of the Lorem Ipsum is</string>
-
     <string name="dimanche_19_12">Dimanche, 19:12</string>
     <string name="aujourd_hui">Aujourd’hui</string>
     <string name="_09_12">09:12</string>
@@ -215,13 +184,8 @@
     <string name="demande_de_devis">Demande de devis</string>
     <string name="comment_profiter_de_la_promotion">Comment profiter de la promotion</string>
     <string name="samedi">Samedi</string>
-
     <string name="admin">Admin</string>
-
-
-
     <string name="malicka_bengo">Malicka BENGO</string>
-
     <string name="sp_cialis_dans_la_cr_ation_d_v_nements_et_la_d_coration_lilou_event_met_votre_disposition_un_service_de_qualit">
         Spécialisé dans la création d’évènements et la décoration, Lilou Event met à votre disposition un service de qualité.</string>
     <string name="modifier_le_profil">Modifier le Profil</string>
@@ -229,35 +193,18 @@
     <string name="lilouevent_gmail_com">lilouevent@gmail.com</string>
     <string name="_241777778801">+241777778801</string>
     <string name="service_de_d_corations">Service de décorations</string>
-
-    <string name="modifire_profil">Mattre à jour</string>
-
-
-
+    <string name="modifire_profil">Mettre à jour</string>
     <string name="s_inscrire_string">Sinscrire</string>
-
     <string name="mot_de_passe_string">Mot de passe</string>
-
     <string name="confirmez_votre_mot_de_passe_string">Confirmez votre mot de passe</string>
-
     <string name="vous_avez_d_j__un_compte__string">Vous avez dj un compte?</string>
-
     <string name="_connexion_string">Connexion</string>
-
     <string name="inscrivez_vous_avec__string">Inscrivez vous avec </string>
-
     <string name="nom_string">Nom</string>
-
     <string name="email_string">Email</string>
-
     <string name="facebook_string">Facebook</string>
-
     <string name="google_string">Google</string>
-
     <string name="s_lectionnez_le_profil_string">Slectionnez le profil</string>
-
     <string name="confirmez_votre_mot_de_passe_ek1_string">Confirmez votre mot de passe</string>
     <string name="paypal">Paypal</string>
-
-
 </resources>

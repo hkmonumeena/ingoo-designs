@@ -9,12 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.FiftyThreeActivity">
-        </activity>
-        <activity android:name=".activities.FiftyOneActivity">
-        </activity>
-        <activity android:name=".activities.FiftyActivity">
-        </activity>
+        <activity android:name=".activities.FiftyThreeActivity"></activity>
+        <activity android:name=".activities.FiftyOneActivity"></activity>
+        <activity android:name=".activities.FiftyActivity"></activity>
         <activity android:name=".activities.FiftyTwoActivity">
 
         </activity>
@@ -28,43 +25,30 @@
         </activity>
         <activity android:name=".activities.FortySevenActivity" />
         <activity android:name=".activities.FortySixActivity" />
-        <activity android:name=".activities.FortyFiveActivity">
-
-
-        </activity>
+        <activity android:name=".activities.FortyFiveActivity"></activity>
         <activity android:name=".activities.FortyThreeActivity">
 
-
-
-
-
         </activity>
-        <activity android:name=".activities.FortyTwoActivity">
-
-
-
-
-        </activity>
-        <activity android:name=".activities.FortyFourActivity">
-
-        </activity>
-        <activity android:name=".activities.ThirtyNineActivity">
-
-
-        </activity>
+        <activity android:name=".activities.FortyTwoActivity"></activity>
+        <activity android:name=".activities.FortyFourActivity"></activity>
+        <activity android:name=".activities.ThirtyNineActivity"></activity>
         <activity android:name=".activities.ThirtyEightActivity"></activity>
         <activity android:name=".activities.FortyOneActivity"></activity>
-        <activity android:name=".activities.FortyActivity">
+        <activity android:name=".activities.FortyActivity"></activity>
+        <activity android:name=".activities.ThirtySevenActivity">
 
 
         </activity>
-        <activity android:name=".activities.ThirtySevenActivity"></activity>
-        <activity android:name=".activities.ThirtySixActivity"></activity>
+        <activity android:name=".activities.ThirtySixActivity">
+        </activity>
         <activity android:name=".activities.ThirtyThreeActivity"></activity>
         <activity android:name=".activities.ThirtyFiveActivity"></activity>
-        <activity android:name=".activities.ThirtyFourActivity"></activity>
-        <activity android:name=".activities.TwentyEightMainActivity">
+        <activity android:name=".activities.ThirtyFourActivity">
 
+
+
+        </activity>
+        <activity android:name=".activities.TwentyEightMainActivity">
 
         </activity>
         <activity android:name=".activities.ThirtyTwoActivity" />
@@ -117,10 +101,10 @@
 
 
         </activity>
-       <activity android:name=".activities.FourteenthActivity">
+        <activity android:name=".activities.FourteenthActivity">
 
 
-     </activity>
+        </activity>
         <activity android:name=".activities.ThirteenActivity">
 
         </activity>
@@ -153,10 +137,8 @@
         <activity android:name=".activities.FifthActivity">
 
         </activity>
-        <activity android:name=".activities.SignupActivity">
-        </activity>
+        <activity android:name=".activities.SignupActivity"></activity>
         <activity android:name=".activities.ForthActivity">
-
 
         </activity>
         <activity android:name=".activities.ThirdActivity">
@@ -168,11 +150,11 @@
 
         </activity>
         <activity android:name=".activities.MainActivity">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
 
         </activity>
     </application>

@@ -148,6 +148,7 @@
                     android:id="@+id/imageView5"
                     android:layout_width="45dp"
                     android:layout_height="45dp"
+                    android:layout_marginTop="-10dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="10dp"
                     app:srcCompat="@drawable/blackback" />
@@ -192,15 +193,17 @@
                 android:textSize="18dp" />
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/cardView2022"
+                android:id="@+id/cardView"
                 android:layout_width="match_parent"
-                android:layout_height="220dp"
+                android:layout_height="240dp"
+                app:cardElevation="14dp"
+                app:cardCornerRadius="5dp"
+                android:translationZ="0.3dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
-                app:cardCornerRadius="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent">
 
@@ -212,10 +215,10 @@
                         android:id="@+id/imageView987"
                         android:layout_width="match_parent"
                         android:layout_height="150dp"
+                        android:scaleType="fitXY"
                         android:scaleX="1.4"
                         android:scaleY="1.4"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/img31" />
+                        app:srcCompat="@drawable/img31" />
 
 
                     <Button
@@ -224,15 +227,15 @@
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"
                         android:background="@drawable/whiterunded"
-                        android:fontFamily="@font/josefinsans_bold"
+                        android:fontFamily="@font/josefinsans_semibold"
                         android:text="@string/decoration"
                         android:textAllCaps="false"
                         android:textColor="@color/blue" />
 
 
                     <RelativeLayout
-                        android:layout_width="70dp"
-                        android:layout_height="30dp"
+                        android:layout_width="60dp"
+                        android:layout_height="35dp"
                         android:layout_alignParentRight="true"
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="10dp"
@@ -255,7 +258,7 @@
                             android:layout_centerVertical="true"
                             android:layout_marginTop="5dp"
                             android:layout_marginRight="15dp"
-                            android:fontFamily="@font/josefinsans_bold"
+                            android:fontFamily="@font/josefinsans_semibold"
                             android:text="@string/_4_5"
                             android:textColor="@color/black" />
 
@@ -267,10 +270,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/imageView987"
-                        android:layout_marginStart="5dp"
-                        android:layout_marginLeft="5dp"
-                        android:layout_marginTop="5dp"
-                        android:fontFamily="@font/josefinsans_semibold"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/josefinsans_bold2"
                         android:text="@string/lilue_event"
                         android:textColor="@color/black"
                         android:textSize="18dp" />
@@ -280,12 +282,12 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/textView11"
-                        android:layout_marginStart="5dp"
-                        android:layout_marginLeft="5dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp"
                         android:layout_marginBottom="5dp"
                         android:fontFamily="@font/josefinsans_regular"
                         android:text="@string/trois_quartiers_libreville"
-                        android:textColor="@color/eventregularcolor"
+                        android:textColor="@color/grey"
                         android:textSize="16dp" />
 
                 </RelativeLayout>
@@ -356,10 +358,10 @@
                             android:layout_height="match_parent">
 
                             <ImageView
-                                android:id="@+id/imageView9"
+                                android:id="@+id/imageView8"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:alpha="0.6"
+                                android:alpha="0.5"
                                 android:scaleType="fitXY"
                                 android:scaleX="1.2"
                                 android:scaleY="1.2"
@@ -373,7 +375,7 @@
                                 android:gravity="center"
                                 android:text="@string/dj"
                                 android:textColor="@color/white"
-                                android:textSize="20dp"
+                                android:textSize="16dp"
                                 android:textStyle="bold">
 
 
@@ -409,7 +411,7 @@
                                 android:id="@+id/imageView8"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:alpha="0.6"
+                                android:alpha="0.5"
                                 android:scaleType="fitXY"
                                 android:scaleX="1.2"
                                 android:scaleY="1.2"
@@ -423,7 +425,7 @@
                                 android:gravity="center"
                                 android:text="@string/decoration"
                                 android:textColor="@color/white"
-                                android:textSize="20dp"
+                                android:textSize="16dp"
                                 android:textStyle="bold">
 
 
@@ -457,7 +459,7 @@
                                 android:id="@+id/imageView8"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:alpha="0.6"
+                                android:alpha="0.5"
                                 android:scaleType="fitXY"
                                 android:scaleX="1.2"
                                 android:scaleY="1.2"
@@ -469,9 +471,9 @@
                                 android:layout_centerInParent="true"
                                 android:fontFamily="@font/josefinsans_semibold"
                                 android:gravity="center"
-                                android:text="@string/furniture"
+                                android:text="Fleuristes"
                                 android:textColor="@color/white"
-                                android:textSize="20dp"
+                                android:textSize="16dp"
                                 android:textStyle="bold">
 
 

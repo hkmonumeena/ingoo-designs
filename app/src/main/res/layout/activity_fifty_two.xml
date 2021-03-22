@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".activities.FiftyTwoActivity">
 
     <ScrollView
@@ -45,7 +46,6 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-
                     android:layout_marginTop="5dp"
                     android:fontFamily="@font/josefinsans_semibold"
                     android:gravity="center"
@@ -85,18 +85,18 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:background="#FFF6F7FF"
                 android:layout_marginTop="0dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_marginLeft="10dp"
-                    android:fontFamily="@font/josefinsans_semibold"
-                    android:text="Informations generales"
+                    android:layout_marginLeft="25dp"
+                    android:fontFamily="@font/josefinsans_bold2"
+                    android:text="Information Générales"
                     android:textColor="@color/inputbluishblack"
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
+                    android:textSize="20sp" />
 
             </RelativeLayout>
 
@@ -189,7 +189,7 @@
                         android:layout_centerVertical="true"
                         android:padding="5dp"
                         android:src="@drawable/ic_place_24px"
-                        android:tint="@color/rock_blue" />
+                        app:tint="@color/rock_blue" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -268,11 +268,11 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginBottom="20dp"
                 android:background="@drawable/connecxiorlbg"
-                android:fontFamily="@font/josefinsans_bold"
+                android:fontFamily="@font/josefinsans_semibold"
                 android:gravity="center"
                 android:text="Modifier profil"
                 android:textColor="#fff"
-                android:textSize="20dp"
+                android:textSize="18sp"
                 android:textStyle="bold" />
 
         </LinearLayout>

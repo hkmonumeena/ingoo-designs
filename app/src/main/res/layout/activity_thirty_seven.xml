@@ -22,7 +22,7 @@
                 android:id="@+id/commant_back"
                 android:layout_width="45dp"
                 android:layout_height="45dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="5dp"
                 android:layout_marginTop="6dp"
                 android:background="@drawable/blackback" />
 
@@ -46,6 +46,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
+
                 android:background="@drawable/cancel" />
 
             <TextView
@@ -54,12 +55,14 @@
                 android:layout_height="50dp"
                 android:layout_below="@+id/opations"
                 android:layout_marginTop="10dp"
-                android:textColor="#8C8DAA"
+                android:background="#F6F7FF"
                 android:fontFamily="@font/josefinsans_bold"
                 android:gravity="center_vertical"
                 android:paddingStart="10dp"
+                android:layout_marginStart="10dp"
                 android:text="@string/selectionnez"
-                android:textSize="20dp"
+                android:textColor="#8C8DAA"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -67,24 +70,26 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_below="@+id/selectionnez"
-                android:fontFamily="@font/josefinsans_semibold"
+                android:fontFamily="@font/josefinsans_regular"
                 android:gravity="center_vertical"
                 android:padding="5dp"
+                android:layout_marginStart="10dp"
                 android:paddingStart="10dp"
                 android:text="@string/autoriser"
                 android:textColor="#5663FF"
-                android:textSize="18dp"
-                android:textStyle="bold" />
+                android:textSize="16dp"
+                />
 
             <ImageView
                 android:id="@+id/check"
-                android:layout_below="@+id/selectionnez"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
+                android:layout_below="@+id/selectionnez"
                 android:layout_alignParentRight="true"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
-                android:background="@drawable/checked" />
+                android:padding="2dp"
+                android:src="@drawable/checked" />
 
 
         </RelativeLayout>
@@ -97,14 +102,15 @@
                 android:id="@+id/email"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:fontFamily="@font/josefinsans_semibold"
+                android:fontFamily="@font/josefinsans_regular"
                 android:gravity="center_vertical"
                 android:padding="5dp"
                 android:paddingStart="10dp"
                 android:text="@string/bloquer"
+                android:layout_marginStart="10dp"
                 android:textColor="#3E3F68"
-                android:textSize="18dp"
-                android:textStyle="bold" />
+                android:textSize="16dp"
+                />
 
             <ImageView
                 android:id="@+id/circle"
@@ -113,23 +119,25 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
-                android:background="@drawable/circle" />
+                android:padding="2dp"
+                android:src="@drawable/circle" />
         </RelativeLayout>
 
     </LinearLayout>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="60dp"
+        android:layout_below="@id/comenter"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_below="@id/comenter"
-        android:background="@drawable/connecxiorlbg"
-        android:gravity="center"
-        android:textColor="@color/white"
-        android:fontFamily="@font/josefinsans_bold"
         android:layout_marginBottom="20dp"
+        android:background="@drawable/connecxiorlbg"
+        android:fontFamily="@font/josefinsans_regular"
+        android:gravity="center"
         android:text="@string/enregistrer"
+        android:textColor="@color/white"
         android:textSize="20dp"
-        android:textStyle="bold" />
+       />
 
 </RelativeLayout>

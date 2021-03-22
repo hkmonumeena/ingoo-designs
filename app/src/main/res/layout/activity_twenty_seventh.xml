@@ -113,11 +113,10 @@
                         android:id="@+id/editTextTextEmailAddress"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
                         android:layout_toRightOf="@+id/ic_camara"
                         android:background="@null"
                         android:ems="10"
+                        android:textAlignment="center"
                         android:textColorHint="#3E3F68"
                         android:fontFamily="@font/josefinsans_regular"
                         android:hint="Ajouter image"
@@ -146,10 +145,9 @@
                         android:id="@+id/editTextTextEmailAddress"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
                         android:background="@null"
                         android:ems="10"
+                        android:textAlignment="center"
                         android:fontFamily="@font/josefinsans_regular"
                         android:hint="Titre"
                         android:textColorHint="#3E3F68"
@@ -163,9 +161,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="40dp"
                     android:layout_marginTop="10dp"
-                    android:fontFamily="@font/josefinsans_bold"
+                    android:fontFamily="@font/josefinsans_semibold"
                     android:text="Date de début"
-                    android:textColor="#000000"
+                    android:textColor="#3b3c64"
                     android:textSize="18dp" />
 
                 <RelativeLayout
@@ -217,7 +215,7 @@
                     android:layout_marginTop="10dp"
                     android:fontFamily="@font/josefinsans_bold"
                     android:text="Date de début"
-                    android:textColor="#000000"
+                    android:textColor="#3b3c64"
                     android:textSize="18dp" />
 
                 <RelativeLayout
